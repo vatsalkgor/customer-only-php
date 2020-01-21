@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "Saumilguj2";
+	src: url("../fonts/Saumilguj2.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/Saumilguj2.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	url("../fonts/Saumilguj2.otf") format("opentype"), /* Open Type Font */
+	url("../fonts/Saumilguj2.ttf") format("truetype"), /* Safari, Android, iOS */
+	url("../fonts/Saumilguj2.woff") format("woff"), /* Modern Browsers */
+	url("../fonts/Saumilguj2.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.guj,input[type="search"],td[class*="guj"] {
+	font-family: 'Saumilguj2';
+	font-weight: bold;
+	font-size: 18px;
+}
+.select2-container{
+	font-family: 'Saumilguj2';
+	font-weight: bold;
+	font-size: 18px;
+}
+.select2-results__message{
+	font-family: "Ariel";
+}
