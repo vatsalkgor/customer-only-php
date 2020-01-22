@@ -114,7 +114,7 @@ session_start();
 			</tr>
 			<tr class="sf" style="border-bottom: 0px;border-top: 0px;">
 				<td height="5" style="border-bottom: 0px;border-right: 0px;border-top: 0px;">kula baakI</td>
-				<td height="5" style="border-left: 0px;border-bottom: 0px;border-right: 0px;border-top: 0px;" colspan="2"><?php echo number_format((float)$total + $value['o_e'] + $value['wage'] + $value['com'] + $value['pending'],2,'.','') ?></td>
+				<td height="5" style="border-left: 0px;border-bottom: 0px;border-right: 0px;border-top: 0px;" colspan="2"><?php echo number_format((float)$total + $value['caret_total'] + $value['o_e'] + $value['wage'] + $value['com'] + $value['pending'],2,'.','') ?></td>
 				<td height="5" style="border-bottom: 0px;border-top: 0px;">kimaSana</td>
 				<td height="5" style="border-bottom: 0px;border-top: 0px;"><?php echo $value['com'] ?></td>
 			</tr>
