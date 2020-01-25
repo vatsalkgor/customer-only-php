@@ -16,7 +16,7 @@ session_start();
 		font-size: 18px;
 	}
 	.sf{
-		font-size: 18px;
+		font-size: 16px;
 	}
 	table{
 		page-break-after: always;
@@ -44,6 +44,11 @@ session_start();
 		$total = 0;
 		?>
 		<table class=" guj" style="min-width: 10.5cm;max-width:10.5cm;min-height: 15cm;max-height: 15cm; margin: 40px;">
+			<tr class="sf" >
+				<td height="5" style="border-width: 0px 0px 0px 0px;">EaI gaNaoSaaya nama:</td>
+				<td colspan="3" style="border-width:0px;"></td>
+				<td height="5" style="text-align:center;border-width: 0px 0px 0px 0px;">EaI 1<span style="font-family: 'Times New Roman', Times, serif;">||</span></td>
+			</tr>
 			<tr class="sf" >
 				<td height="5" colspan="5" style="font-size:16px;text-align: center;border-bottom:0px;font-family: 'Times New Roman', Times, serif;">Bhagwati Fruits & Vegetables</td>
 			</tr>
@@ -126,7 +131,14 @@ session_start();
 				<td height="5" style="border-top: 0px;"><?php echo $total + $value['caret_total'] + $value['o_e'] + $value['com'] + $value['wage'] ?></td>
 			</tr>
 			<tr>
-				<td height="5" style="font-size: 10px;font-family: 'Times New Roman', Times, serif;border-bottom:0px;" colspan="5">Jurisdiction to Bhuj Court</td>
+				<td style="border-bottom:0px" colspan="5">&nbsp;</td>
+			</tr>
+			<tr>
+				<td style="border-right:0px;border-top:0px;" colspan="4"></td>
+				<td style="border-left:0px;border-top:0px;">baIla banaavanaarnaI sahI</td>
+			</tr>
+			<tr>
+				<td height="5" style="font-size: 10px;font-family: 'Times New Roman', Times, serif;border-bottom:0px;" colspan="5">Subject to Bhuj Jurisdiction</td>
 			</tr>
 			<tr>
 				<td height="5" style="font-size: 10px;font-family: 'Times New Roman', Times, serif; border-top:0px;" colspan="5">Designed and developed by Vatsal Gor: 9408203201</td>
